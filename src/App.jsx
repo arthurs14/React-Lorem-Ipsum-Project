@@ -10,7 +10,6 @@ const App = () => {
 
   const handleFormSubmit = (e, count) => {
     e.preventDefault();
-    console.log(count);
     setText(data.slice(0, count));
   };
 
