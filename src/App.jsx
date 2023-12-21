@@ -1,4 +1,14 @@
+import Form from "./components/Form";
+
 const App = () => {
-  return <h2>Lorem Ipsum Starter</h2>;
+  return (
+    <main>
+      <section className="section-center">
+        <h4>tired of boring lorem ipsum?</h4>
+        <Form />
+      </section>
+    </main>
+  );
 };
+
 export default App;
